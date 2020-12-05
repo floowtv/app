@@ -1,7 +1,7 @@
 <?php
 $enlace =  $_GET["media"] ;
 
-$pagina_inicio = file_get_contents('xxxx');
+$pagina_inicio = file_get_contents('http://www.mediafire.com/file/' . $enlace. '/');
 $start = strpos($pagina_inicio, 'http://download');
 $end = strpos($pagina_inicio, "'",$start);
 
@@ -11,6 +11,7 @@ $end = strpos($pagina_inicio, "'",$start);
 
 ?>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="http://vjs.zencdn.net/6.2.8/video-js.css" rel="stylesheet">
 
   <!-- If you'd like to support IE8 -->
@@ -18,6 +19,22 @@ $end = strpos($pagina_inicio, "'",$start);
   <style>
 body {
     background-color: #000000;
+}
+</style>
+
+
+<style>
+img[alt*="000webhost"],
+img[alt*="000webhost"][style],
+img[src*="000webhost"],
+img[src*="000webhost"][style],
+body > div:nth-last-of-type(1)[style]{
+	opacity: 0 !important;
+	pointer-events:none !important;
+	width: 0px !important;
+	height: 0px !important;
+	visibility:hidden !important;
+	display:none !important;
 }
 </style>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/mediaelementplayer.min.css">
@@ -63,29 +80,7 @@ body {
   background: #454345; 
 }
 </style>
-<style>
-* {margin:0;}
-.container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  font-size: 0;
-  background-color: #000000;;
-  margin: auto;
-  z-index: -1000;
-  padding-bottom: 55%;
-}
 
-.container video {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-}
-</style>
 <style>
 * {margin:0;}
 .container {position: absolute;top: 0;bottom: 0;width: 100%;height: 0;overflow: hidden;font-size: 0;background-color: #000000;;margin: auto;z-index: -1000;padding-bottom: 55%;}
