@@ -43,7 +43,7 @@ body > div:nth-last-of-type(1)[style]{
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i">
   <style> html, body { overflow-x: hidden; } #container { } .error { color: red; }  a {  word-wrap: break-word;  }   code {  font-size: 0.8em;  } #player2-container .mejs__time-buffering, #player2-container .mejs__time-current, #player2-container .mejs__time-handle, #player2-container .mejs__time-loaded, #player2-container .mejs__time-hovered, #player2-container .mejs__time-marker, #player2-container .mejs__time-total { height: 2px;} #player2-container .mejs__time-total { margin-top: 9px;} #player2-container .mejs__time-handle { left: -5px; width: 12px; height: 12px;
             border-radius: 50%;
-            background: #ffffff;
+            background: #000000;
             top: -5px;
             cursor: pointer;
             display: block;
@@ -93,7 +93,7 @@ body > div:nth-last-of-type(1)[style]{
 <center>
 <div class="player">
   <video id="my-video" class="video-js" controls autoplay preload="auto" width="640" height="320"  style="max-width: 100%"
-  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+  poster="https://floowtv.github.io/app/docs/img/black.png" data-setup="{}">
     <source src="<?php echo $pagina_inicio;  ?>" type='video/mp4'>
 
   </video>
