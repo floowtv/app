@@ -4,7 +4,7 @@ git add .
 
 git commit -m "fl20"
 
-
+git push origin gh-pages --force
 
 BORRAR CREDENCIALES DE WINDOWS PARA CONECTARSE A OTRA CUENTA
 
