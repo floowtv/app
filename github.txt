@@ -2,7 +2,7 @@ git init
 
 git add .
 
-git commit -m "fl26"
+git commit -m "fl30"
 
 git push origin gh-pages --force
 
@@ -16,6 +16,13 @@ git config --global --replace-all user.mail "mail-id@domain.com"
 git config --global --edit
 
 --------------------------
+
+width="404" height="227" 
+
+
+
+
+
 git config --global user.email "floowlatam@gmail.com"
 
 git config --global user.email floowlatam@gmail.com
