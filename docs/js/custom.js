@@ -152,16 +152,12 @@ Index Of Script
 		});
 		jQuery('.favorites-slider').slick({
 			dots: false,
-			arrows: true,
+			arrows: false,
 			infinite: true,
 			speed: 300,
 			autoplay: false,
 			slidesToShow: 4,
-			slidesToScroll: 1,		
-			// appendArrows: $('#sm-slick-arrow'),
-			
-			nextArrow: '<a href="#" class="slick-arrow slick-next"><i class= "fa fa-chevron-right"></i></a>',
-			prevArrow: '<a href="#" class="slick-arrow slick-prev"><i class= "fa fa-chevron-left"></i></a>',
+			slidesToScroll: 1,
 			responsive: [
 			{
 				breakpoint: 1200,
@@ -182,7 +178,6 @@ Index Of Script
 			{
 				breakpoint: 480,
 				settings: {
-				// arrows: false,
 				slidesToShow: 1,
 				slidesToScroll: 1
 				}
@@ -312,7 +307,6 @@ Index Of Script
 			slidesToScroll: 1,		 
 			arrows: false,
 			fade: true,
-			draggable:false,
 			asNavFor: '#trending-slider-nav',	
 		});
 		jQuery('#trending-slider-nav').slick({
@@ -320,9 +314,7 @@ Index Of Script
 			slidesToScroll: 1,
 			asNavFor: '#trending-slider',
 			dots: false,
-			arrows: true,
-			nextArrow: '<a href="#" class="slick-arrow slick-next"><i class= "fa fa-chevron-right"></i></a>',
-			prevArrow: '<a href="#" class="slick-arrow slick-prev"><i class= "fa fa-chevron-left"></i></a>',
+			arrows: false,
 			infinite: true,
 			centerMode: true,
 			centerPadding:0,
