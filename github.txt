@@ -2,7 +2,7 @@ git init
 
 git add .
 
-git commit -m "fl30"
+git commit -m "fl31"
 
 git push origin gh-pages --force
 
@@ -17,7 +17,34 @@ git config --global --edit
 
 --------------------------
 
-width="404" height="227" 
+
+
+
+
+
+
+<li class="slide-item">
+<a href="p/xxxxxxx">
+<div class="block-images position-relative"><div class="img-box">
+<img src="xxxx" class="img-fluid" width="404" height="227" alt=""></div><div class="block-description">
+<div class="movie-time d-flex align-items-center my-2"></div>
+<div class="hover-buttons">
+<span class="btn btn-hover">
+<i class="fa fa-play mr-1" aria-hidden="true"></i>Ver ahora</span>
+</div></div></div></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
