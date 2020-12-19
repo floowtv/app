@@ -2,7 +2,7 @@ git init
 
 git add .
 
-git commit -m "fl31"
+git commit -m "fl33"
 
 git push origin gh-pages --force
 
@@ -16,36 +16,6 @@ git config --global --replace-all user.mail "mail-id@domain.com"
 git config --global --edit
 
 --------------------------
-
-
-
-
-
-
-
-<li class="slide-item">
-<a href="p/xxxxxxx">
-<div class="block-images position-relative"><div class="img-box">
-<img src="xxxx" class="img-fluid" width="404" height="227" alt=""></div><div class="block-description">
-<div class="movie-time d-flex align-items-center my-2"></div>
-<div class="hover-buttons">
-<span class="btn btn-hover">
-<i class="fa fa-play mr-1" aria-hidden="true"></i>Ver ahora</span>
-</div></div></div></a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -122,32 +92,19 @@ git checkout --track origin/<BRANCH-NAME>
 
 
 
+------------------------------------------------------------------------
 
+<li class="slide-item">
+<a href="p/xxxxxxx">
+<div class="block-images position-relative"><div class="img-box">
+<img src="POSTEROK" class="img-fluid" width="404" height="227" alt=""></div><div class="block-description">
+<div class="movie-time d-flex align-items-center my-2"></div>
+<div class="hover-buttons">
+<span class="btn btn-hover">
+<i class="fa fa-play mr-1" aria-hidden="true"></i>Ver ahora</span>
+</div></div></div></a></li>
 
-
-
-
-
-
-#040404FE
-#2EC730FE
-
-<script data-ad-client="ca-pub-4124591731697232" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4124591731697232"
-     data-ad-slot="2496240630"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+------------------------------------------------------------------------
 
 
 
@@ -156,16 +113,55 @@ git checkout --track origin/<BRANCH-NAME>
 
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4124591731697232"
-     data-ad-slot="3794361503"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
