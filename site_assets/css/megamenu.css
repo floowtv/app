@@ -188,9 +188,9 @@ a.navbar-toggle, a.navbar-toggle:hover, a.navbar-toggle:focus {
 	transition: all .2s;
 }
 .header-section ul li.mega-menu ul li ul {
-	-webkit-box-shadow: 0 0 0 2em #F4AAB9;
-	-moz-box-shadow: 0 0 0 2em #F4AAB9;
-	box-shadow: 0 0 0 2em #F4AAB9;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 }
 .header-section ul li ul li {
 	border-bottom: 1px solid #eee;
@@ -237,10 +237,11 @@ a.navbar-toggle, a.navbar-toggle:hover, a.navbar-toggle:focus {
 	right: 100%;
 }
 .header-section ul li.mega-menu {
-	position: static;
+	position: position: absolute;
 }
 .header-section ul li.mega-menu > ul {
 	width: 100%;
+	height: 100%;
 	left: 0px;
 	float: none;
 	margin-left: 0px;
@@ -266,7 +267,7 @@ a.navbar-toggle, a.navbar-toggle:hover, a.navbar-toggle:focus {
 }
 .header-section ul li.mega-menu > ul > li ul {
 	width: 100%;
-	position: relative;
+	position: absolute;
 	right: auto;
 	top: auto;
 	left: auto;
