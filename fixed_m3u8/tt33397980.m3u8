@@ -1,10 +1,10 @@
 #EXTM3U
 #EXT-X-VERSION:3
 
+# --- PISTAS DE AUDIO (Nombres limpios sin caracteres especiales) ---
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-group",NAME="Espanol Latino",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="es",URI="https://s22.nm-cdn11.top/files/81939823/a/0/0.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-group",NAME="English",DEFAULT=NO,AUTOSELECT=YES,LANGUAGE="en",URI="https://s22.nm-cdn11.top/files/81939823/a/1/1.m3u8"
 
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-group",NAME="Español Latino",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="es",URI="https://s22.nm-cdn11.top/files/81939823/a/0/0.m3u8"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-group",NAME="English",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="en",URI="https://s22.nm-cdn11.top/files/81939823/a/1/1.m3u8"
-
-
+# --- FLUJO DE VIDEO ---
 #EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080,AUDIO="audio-group"
 https://floowtv.github.io/app/tt33397980.m3u8
