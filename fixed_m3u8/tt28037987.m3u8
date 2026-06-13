@@ -1,0 +1,12 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="ara",NAME="Arabic",DEFAULT=NO,URI="https://s20.freecdn1.top/files/82024663/a/0/0.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="deu",NAME="German",DEFAULT=NO,URI="https://s20.freecdn1.top/files/82024663/a/1/1.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="spa",NAME="Spanish",DEFAULT=NO,URI="https://s20.freecdn1.top/files/82024663/a/2/2.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="fra",NAME="French",DEFAULT=NO,URI="https://s20.freecdn1.top/files/82024663/a/3/3.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="hin",NAME="Hindi",DEFAULT=NO,URI="https://s20.freecdn1.top/files/82024663/a/4/4.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="msa",NAME="Malay",DEFAULT=NO,URI="https://s20.freecdn1.top/files/82024663/a/5/5.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="por",NAME="Portuguese",DEFAULT=NO,URI="https://s20.freecdn1.top/files/82024663/a/6/6.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="tha",NAME="Thai",DEFAULT=NO,URI="https://s20.freecdn1.top/files/82024663/a/7/7.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=1000001,AUDIO="aac",RESOLUTION=1920x1080,CLOSED-CAPTIONS=NONE
+https://genuine-froyo-4abc13.netlify.app/tt28037987.m3u8

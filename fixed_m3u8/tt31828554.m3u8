@@ -1,0 +1,11 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="eng",NAME="English",DEFAULT=YES,URI="https://s22.nm-cdn11.top/files/81735935/a/0/0.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="und",NAME="Unknown",DEFAULT=NO,URI="https://s22.nm-cdn11.top/files/81735935/a/1/1.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="spa",NAME="Spanish",DEFAULT=NO,URI="https://s22.nm-cdn11.top/files/81735935/a/2/2.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="fra",NAME="French",DEFAULT=NO,URI="https://s22.nm-cdn11.top/files/81735935/a/3/3.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="hun",NAME="Hungarian",DEFAULT=NO,URI="https://s22.nm-cdn11.top/files/81735935/a/4/4.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="por",NAME="Portuguese",DEFAULT=NO,URI="https://s22.nm-cdn11.top/files/81735935/a/5/5.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="swe",NAME="Swedish",DEFAULT=NO,URI="https://s22.nm-cdn11.top/files/81735935/a/6/6.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=1000001,AUDIO="aac",RESOLUTION=1920x1080,CLOSED-CAPTIONS=NONE
+https://genuine-froyo-4abc13.netlify.app/tt31828554.m3u8
